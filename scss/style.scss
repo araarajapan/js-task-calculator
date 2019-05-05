@@ -1,0 +1,95 @@
+// ==============================
+// 変数
+// ==============================
+
+/* font-color */
+$font-color_default: #777;
+$font-color_date: #e37b89; // TODO:リファクタ必要
+$color_corp: #e3a8b1;
+$font-color_sub1: #b6a489;
+
+$site-width: 980px;
+
+/* font-size */
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 38px;
+
+/* padding & margin*/
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+$font-family_main: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic,
+  "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka,
+  "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+$font-family_corp: "Amatic SC", cursive;
+
+// ==================================
+// base
+// ==================================
+html,
+body {
+  width: 100%;
+  color: $font-color_default;
+  font-size: $font-size_default;
+  line-height: 1.6;
+  font-family: $font-family_main;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em;
+}
+
+a {
+  color: $font-color_default;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: $color_corp;
+  transition: 0.3s;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+//コンポーネント別にスタイルを設定
+// ==================================
+// header
+// ==================================
+
+// ==================================
+// menu
+// ==================================
+
+// ==================================
+// container
+// ==================================
+
+// ==================================
+// panel
+// ==================================
+
+// ==================================
+// form
+// ==================================
+
+// ==================================
+// btn
+// ==================================
+
+// ==================================
+// footer
+// ==================================
+
+// ==================================
+// Utility
+// ==================================
